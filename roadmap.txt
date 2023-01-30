@@ -1,0 +1,30 @@
+Personal App
+-live --> personallistappch11.vercel.app
+-backend --> anthonycw.pythonanywhere.com/swagger
+
+*department model
+department name		how many staff work in this department?
+	-frontend		-1
+	-backend		-2
+	-aws			-1
+	-hr				-1
+
+*personal model
+-did joined? (kaç gün önce katıldığı) 86 days ago vs..
+-title
+-first name
+-last name
+-gender
+-salary
+-is staffed?
+
+**izinler
+login olan kullanıcı sadece görüntüleme yapabilecek
+-personel üzerindeki işlemleri (ekleme,edit vs) yanlızca staff olan personal yapabilecek.
+-staff personel'i de admin panelden belirliyoruz
+
+**dinamik api yaz
+/api/department/{department}
+
+
+
